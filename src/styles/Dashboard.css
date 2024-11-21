@@ -1,0 +1,30 @@
+/* Dashboard and Course styles */
+.dashboard-page, .course-page {
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .topic-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .topic-item {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .topic-item:hover {
+    background-color: #ddd;
+  }
+  

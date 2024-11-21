@@ -1,0 +1,20 @@
+/* Styles for TopicList component */
+.topic-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .topic-item {
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .topic-item:hover {
+    background-color: #e2e6ea;
+  }
+  

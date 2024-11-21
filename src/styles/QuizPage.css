@@ -1,0 +1,27 @@
+/* Styles for QuizPage */
+.quiz-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .quiz-page h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .quiz-page button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .quiz-page button:hover {
+    background-color: #218838;
+  }
+  
